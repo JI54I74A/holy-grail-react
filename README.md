@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# holy-grail-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app created using frontend tools as `react`, for http calls using `superagent`. In the backend/server using `Express` & `Node`. Database using `Redis` & its running on Docker
+Create react app
+`npx create-react-app holy-grail-react`<br>
+`npm i express`
+Install node_modules folder by `npm init` <br>
+Download and open `Docker desktop`
+`docker run -p 6379:6379 --name some-redis -d redis` <br>
+npm install radis
 
 ## Available Scripts
 
